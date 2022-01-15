@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Roboto-Mono';
+    background: url(images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Disc {
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 0.5rem 0 0 0;   
+}
+.pfp{border-radius: 50%;height: 125px;max-width: 125px;}
+
+.d1,.d2,.fa-heartbeat{
+    color: #ABCDFF;
+    width: 20em;
+    height: 0.1px;
+    justify-content: center;
+    align-items: center;
+    inset-inline: 3px;
+}
+
+
+.links {text-align: center;}
+.fa-user,.fa-spotify,.fa-soundcloud,.fa-telegram{
+    background: #01004DB5;
+    color: #000;
+    box-shadow: 0 0 20px #00000010;
+    font-size: 17.6;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    height: 4rem;
+    width: 50rem;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.fa-user:hover,.fa-spotify:hover,.fa-soundcloud:hover,.fa-telegram:hover{
+    width: 51rem;
+    height:4.1rem;
+}
+
+.song-embed {
+    margin-top: 50px;
+    text-align: center;
+}
